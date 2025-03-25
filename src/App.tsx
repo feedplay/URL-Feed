@@ -21,7 +21,7 @@ interface AnalysisResult {
 }
 
 // Define your backend URL here
-const BACKEND_URL = 'http://127.0.0.1:5000'; // **Replace with your actual backend URL**
+const BACKEND_URL = 'https://url-feed.onrender.com'; // **Replace with your actual backend URL**
 
 const App: React.FC = () => {
   return (
