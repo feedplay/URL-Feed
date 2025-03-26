@@ -22,7 +22,7 @@ load_dotenv()
 app = Flask(__name__)
 app.secret_key = os.getenv("SECRET_KEY", os.urandom(24))  # Add a secret key for sessions
 # Allow all origins for development, but you can restrict this in production
-CORS(app, resources={r"/*": {"origins": "https://url-feed-c8to.vercel.app/"}})
+CORS(app, resources={r"/*": {"origins": "https://url-feed-c8to-git-main-feedplays-projects.vercel.app/"}})
 
 # Get Gemini API key from environment
 GEMINI_API_KEY = os.environ.get('GEMINI_API_KEY')
